@@ -1,0 +1,72 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 220%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 175%;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    background-color: rgb(147, 48, 48);
+    border-radius: 10px;
+}
+
+h3 {
+    color: rgb(5, 5, 92);
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: separate;
+    border: 1px solid black;
+}
+
+thead {
+    background-color: rgb(226, 226, 226);
+}
+
+tfoot {
+    background-color: rgb(226, 226, 226);
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.trojuhelnik {
+    color: grey;
+    text-align: left;
+    display: block;
+    float: left;
+}
+
+.sspu {
+    color: white;
+    background-color: rgb(59, 59, 59);
+    margin-bottom: 8px;
+}
+
+.vlevo {
+    text-align: left;
+}
+
+.vpravo {
+    text-align: right;
+}
+
+.cervena {
+    text-align: right;
+    color: red;
+}
